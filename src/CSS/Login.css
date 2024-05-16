@@ -1,0 +1,489 @@
+
+body{
+  overflow: hidden;
+
+}
+
+
+.imglogo{
+    width: 280px!important;
+    
+  }
+  .LoginContainerRow{
+    height: 98vh;
+  }
+
+  /* label{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+  } */
+  .employerdetails{
+    margin-top: 2rem;
+  }
+  .employerdetails h2{
+    color: gray;
+    font-size: 22px;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    border-radius: 8px;
+    
+
+  }
+
+
+  .sideNavbar{
+    display: flex;
+    width: 15%;
+    background-color: #dee2e6;
+    height: 90vh;
+    padding: 0px;
+  }
+  .sideNavbar{
+    width: 15%;
+    transition: 0.5s ease;
+  }
+  .mainContentMobile{
+    width: 100% !important;
+    display: inline-block !important;
+    margin-top: 3rem !important;
+    position:absolute;
+   
+  }
+  .mainContent{
+    width: 85%;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    overflow: auto;
+    height: 90vh;
+  }
+.mobilemenubutton{
+  display: none!important;
+}
+  @media screen and (max-width:765px) {
+    .mobilemenubutton{
+      display: inline-block!important;
+    }
+
+  .dashboardcard div .card{
+    border: none;
+    margin-top: 1rem;
+    
+  }
+  
+  .sideNavbar{
+    display: none;
+    width: 15%;
+    background-color: #dee2e6;
+    height: 90vh;
+    padding: 0px;
+  }
+  /* .sideNavbar{
+    width: 15%;
+    transition: 0.5s ease;
+  } */
+  /* .mainContentMobile{
+    width: 100% !important;
+    display: inline-block !important;
+    margin-top: 3rem !important;
+    position:absolute;
+   
+  } */
+  .mainContent{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+  }
+  }
+  .sideNavbarMobile{
+    /* width: 0px; */
+    display: block;
+    width: 85%;
+    z-index: 9999;
+    transition: 0.5s ease;
+    overflow: hidden;
+    
+  }
+  
+  
+
+  .dashboardcard div .card{
+    border: none;
+    
+    
+  }
+  .dashboardcard div .card .card-body{
+    display: flex;
+  }
+  .cardicon{
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .cardicon i{
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: purple;
+    border-radius: 50px;
+    color: white;
+
+  }
+  .cardText{
+    width: 70%;
+  }
+  .cardText h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cardText h3{
+    font-size: 1rem;
+    text-align: center;
+
+  }
+ .dropdown-menu{
+  margin-left: -2rem;
+  border: none;
+ }
+ .profiledropdown{
+  cursor: pointer;
+ }
+.profileLogo{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* To make the image round */
+  margin-right: 10px; /* Adjust spacing between image and text */
+
+}
+.companyLogo{
+  width: 180px;
+}
+
+  .leftmenu_parentDiv{
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    
+  }
+  .leftmenu_parentDiv div{
+    margin-top: 3rem;
+  }
+  .leftmenu_parentDiv div ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  .leftmenu_parentDiv div ul li{
+    padding: 8px 16px;
+    /* background-color: aqua; */
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+
+  }
+  .leftmenu_parentDiv div ul li span i{
+    font-size: 1.5rem;
+    color: #111;
+  }
+  .leftmenu_parentDiv div ul li  a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+    /* background-color: antiquewhite; */
+    color: #111;
+    font-size: 15px;
+    font-weight: 400;
+
+  }
+
+
+.leftLoginbox{
+  background-color: rgb(55, 40, 58);
+}
+.loginbtn{
+  background-color: rgb(55, 40, 58);
+  color: white;
+  background-image: unset!important;
+}
+.loginbtn2{
+  background-color: rgb(55, 40, 58)!important;
+  color: white!important;
+  background-image: unset!important;
+}
+.loginbtn2 span{
+  color: white!important;
+}
+.loginbtn:hover{
+  background-color: rgb(55, 40, 58);
+  color: white;
+
+}
+.loginTextheader{
+  font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: rgb(23, 43, 77);
+}
+label{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(23, 43, 77);
+
+    /* font-size: 18px;
+    font-weight: 400; */
+    margin-bottom: 0.3rem;
+}
+.passwordnotifi{
+  color: rgba(0, 0, 0, 0.54);
+    margin: 0;
+    font-size: 0.75rem;
+    margin-top: 3px;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}
+.leftBoxText{
+  font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-right: 72px;
+    margin-top: 2rem;
+}
+.leftParentcontener{
+  color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    padding: 32px 0px 0px 72px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.textXP{
+  color: rgb(55, 40, 58);
+}
+
+.modalbgcolor{
+  background-color: rgb(0 0 0 / 91%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);;
+  
+}
+
+.veryfyicon{
+  color: green;
+}
+.verifyinputbox{
+  border: 1 px solid green;
+}
+
+.term_condText label{
+   font-size: 14px!important;
+}
+.Login_mainContainer{
+  overflow: auto;
+}
+.login_forgetPasColumn{
+  display: flex;
+  gap: 60px;
+}
+.profiledropdownmain_div ul{
+  margin-right: -1rem;
+
+}
+
+
+
+/* email verification Otp icon */
+.popupverificationOtp_icon{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.popupverificationOtp_icon span i{
+    padding: 1rem;
+    background: green;
+    border-radius: 50px;
+    font-size: 23px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+
+/* phone number signup */
+.react-tel-input .form-control{
+  width: 100%!important;
+  /* height: 100%!important; */
+}
+
+.citylistitem{
+  background-color: white;
+  z-index: 999999;
+  position:absolute;
+  width: 28%;
+  border-radius: 8px;
+  min-height: auto;
+  max-height: 20%;
+  overflow-y: auto;
+  
+}
+.citylistitem li{
+  list-style: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+
+/* Dashboard */
+.table>:not(caption)>*>*{
+  padding: 1rem 1rem!important;
+  /* text-align: center; */
+}
+
+.reqsModalJDtitle h5{
+  color: rgb(91, 21, 91);
+}
+.basicdetailsbox{
+  border-right: 1px solid grey;
+}
+
+.Firstcardborder{
+  border-left: 5px solid blueviolet!important;
+}
+.Secondcardborder{
+  border-left: 5px solid black!important;
+}
+.Thirdcardborder{
+  border-left: 5px solid #F1C40F !important;
+}
+.Fourthcardborder{
+  border-left: 5px solid #8E44AD!important;
+}
+
+.candidateimg{
+  width: 40px;
+  height: 40px;
+  margin-right: 0.3rem;
+}
+.candidateprofileimage{
+  width: 100px;
+  height: 80px;
+  
+}
+
+
+/* profile page */
+.companyform div{
+  margin-top: 1rem;
+
+}
+.profilecontainermain{
+  /* padding-left: 3rem;
+  padding-right: 3rem; */
+  padding: 3rem;
+  overflow-y: auto;
+}
+.profilePageheader{
+  color: #8E44AD;
+}
+
+
+.termconditiontextmodal p{
+  text-align: justify;
+}
+
+
+/* spinner */
+.spinnercomponentimage{
+  width: 180px;
+  margin: auto;
+}
+
+
+
+/* Myjoblist css */
+
+.myjoblistaction .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: none!important;
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+
+.pagination-container{
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.pagenumspan{
+  margin-left: auto;
+}
+
+
+/* profile page logo */
+.profilepageLogo{
+  width: 150px;
+  float: right;
+
+}
+
+
+
+
+
+/* candidate employeer */
+.offcanvas-end{
+  width: 600px!important;
+}
+.offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+.offcanvas {
+  transition:  0.3s ease-in-out !important;
+}
+.offcanvas-backdrop.show {
+  opacity: .5;
+}
+/* .fade {
+  transition: opacity .15s linear;
+} */
+@media screen and (min-width:900) {
+
+  .offcanvas .offcanvas-end{
+    width: 600px;
+  }
+  
+}
+
+.nav-pills .nav-link{
+  color: #dee2e6;
+}
+.nav-pills .nav-link.active{
+  background-color: unset;
+  border-bottom: 1px solid white;
+  border-radius: unset;
+}
+
+.expviewmore{
+  float: right;
+  text-decoration: none;
+}

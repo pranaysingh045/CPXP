@@ -1,0 +1,107 @@
+/* .componaylogo div img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+} */
+.card{
+    border: none;
+    /* border-right: 5px solid #74296F; */
+}
+.cardTextcontainer p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.componaylogo .div{
+    border-right: 0.5px solid gainsboro;
+    
+}
+.texticon .exp ,.loc {
+    
+    border-right: 1px solid;
+    padding-right: 1rem;
+}
+.texticon  .loc {
+    /* margin-right: 1rem; */
+    margin-left: 1rem;
+
+}
+.texticon .rup{
+    margin-left: 1rem;
+}
+
+.cardhiglight{
+    text-justify: auto;
+    padding-top: 1rem;
+}
+.recomandadmaindiv {
+    margin-top: 1.5rem;
+}
+
+/* document */
+
+.documentSearchcontainer{
+    display: flex;
+    
+
+}
+.documentSearchcontainer input{
+    width: 30%;
+    border-radius: 8px;
+    border: 0.1rem solid gainsboro;
+}
+.documentSearchcontainer span{
+    margin-left: auto;
+}
+
+.candidatimage{
+    margin: auto;
+}
+
+.candidatebasicdetails{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+
+
+/* profile page */
+
+.customcardheaderprofil{
+    /* background-color: white; */
+    float: right;
+    border-bottom: none;
+    border-radius: 8px;
+
+}
+.customcardheaderprofil a{
+    font-size: 1.2rem;
+    color: #74296F;
+}
+.customcardheaderprofil button{
+    float: right;
+    background-color: rgb(128, 0, 92);
+    color: white;
+    padding:0.5rem 0.8rem;
+    
+}
+.customcardbody{
+    padding-top: 0;
+}
+
+
+/* dashboard  */
+.pendingprofile{
+    color: red;
+}
+
+
+
+/* candidate */
+
+.profilepagefirstrow div{
+    margin-bottom: 0.5rem;
+}
